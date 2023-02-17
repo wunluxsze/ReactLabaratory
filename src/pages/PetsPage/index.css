@@ -1,0 +1,36 @@
+.img{
+    width: 100px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    width: 200px;
+}
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.button{
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.button:active {
+    transform: scale(0.93);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

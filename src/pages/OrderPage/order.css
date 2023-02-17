@@ -1,0 +1,12 @@
+.order__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.order{
+    padding: 10px 200px;
+    background-color: aquamarine;
+    border-radius: 70px;
+    margin-top: 10px;
+}

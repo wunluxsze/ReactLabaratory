@@ -1,0 +1,23 @@
+.register__form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 50px;
+}
+.input{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+}
+.log{
+    margin-top: 5px;
+    padding: 10px 20px;
+    display: flex;
+    color: green;
+}
+.error{
+    border: 1px solid red;
+}
